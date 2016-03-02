@@ -33,7 +33,7 @@ namespace {
 
 char SkeletonPass::ID = 0;
 
-// Automatically enable the pass, curtesy of Adrian Sampson,
+// Automatically enable the pass, courtesy of Adrian Sampson,
 // http://adriansampson.net/blog/clangpass.html
 static void registerSkeletonPass(const PassManagerBuilder &,
                          legacy::PassManagerBase &PM) {
